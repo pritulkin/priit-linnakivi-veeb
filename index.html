@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Priit Linnakivi — veebiportfoolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Priit Linnakivi</a>
+      <button class="nav-toggle" aria-label="Ava menüü" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="#home">Avaleht</a>
+        <a href="#about">Minust</a>
+        <a href="#services">Teenused</a>
+        <a href="#portfolio">Portfoolio</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-top">
+            <img class="profile-photo" src="img/image.png" alt="Priit Linnakivi">
+            <span class="profile-name">Priit Linnakivi</span>
+          </div>
+          <p class="eyebrow">Ainus näidis: mairerasta.eu</p>
+          <h1>Teen tasuta veebi, portfoolio täitmiseks – lihtne, selge ja kohe kasutatav.</h1>
+          <p>Praegu üleval ainult üks lehekülg, palun tutvuge sellega.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Võta ühendust</a>
+            <a class="btn btn-secondary" href="https://mairerasta.eu" target="_blank">Vaata näidet</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-inner">
+            <p class="card-tag">Ainuke näidis</p>
+            <h2>MaireRasta.eu</h2>
+            <p>Üks lehekülg, mis on valmis ja näitab, kuidas lihtne disain ja selge struktuur toimivad. Näidis on mõeldud inspireerima tulevasi sarnaseid lahendusi.</p>
+            <ul class="card-list">
+              <li>Selge avalehte struktuur</li>
+              <li>Mobiilisõbralik kasutuskogemus</li>
+              <li>Kontakt ja info kohe nähtaval</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container section-grid">
+        <div>
+          <p class="section-label">Minust</p>
+          <h2>Priit Linnakivi — veebiarendaja</h2>
+          <p>Üks näidis on valmis: mairerasta.eu. Teen lihtsaid ühe lehe veebilahendusi, mis on selged, mobiilisõbralikud ja mugavad kasutada.</p>
+          <div class="about-photos" aria-hidden="false">
+            <img src="img/photo1.png" alt="Priit töö juures" />
+            <img src="img/photo2.png" alt="Veebiarendus" />
+            <img src="img/photo3.png" alt="Portfoolio näide" />
+          </div>
+        </div>
+        <div class="detail-cards">
+          <article class="detail-card">
+            <h3>Sõbralik partner</h3>
+            <p>Ma kuulan, mida vajad, ja teen lihtsa veebilahenduse, mis sobib sinu ettevõtmisega.</p>
+          </article>
+          <article class="detail-card">
+            <h3>Praktiline lähenemine</h3>
+            <p>Keskendun sellele, et leht oleks kiire, loetav ja hõlpsasti hallatav.</p>
+          </article>
+          <article class="detail-card">
+            <h3>Portfoolio baas</h3>
+            <p>Tegelen tasuta veebidega, et koguda esimesi projekte ja näidata neid tulevastele tellijatele.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-soft" id="services">
+      <div class="container">
+        <p class="section-label">Teenused</p>
+        <h2>Mis ma teen</h2>
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>Esimese lehe ehitus</h3>
+            <p>Teen lihtsaid veebilehti HTML, CSS ja JavaScriptiga, mis töötavad hästi nii mobiilis kui ka arvutis.</p>
+          </article>
+          <article class="service-card">
+            <h3>Portfoolio sisu</h3>
+            <p>Koostame sinu tööde tutvustuse nii, et see mõjuks professionaalselt ja kutsuvalt.</p>
+          </article>
+          <article class="service-card">
+            <h3>Kiire avaldamine</h3>
+            <p>Saad veebilehe üles sama nädalaga, et saaksid hakata kohe oma töid näitama.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="container">
+        <p class="section-label">Näited</p>
+        <h2>Esimesed tasuta projektid</h2>
+        <div class="portfolio-grid">
+          <article class="portfolio-card">
+            <img class="portfolio-thumb" src="img/mairerasta.png" alt="mairerasta.eu näidis" />
+            <span class="portfolio-badge">Näidis</span>
+            <h3>mairerasta.eu</h3>
+            <p>Üks lehekülg, mis on valmis näituseks ja inspiratsiooniks. Maire Rästä veeb on näide sellest, kuidas lihtne ja selge lahendus töötab hästi.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="section-label">Kontakt</p>
+          <h2>Alustame koostööd</h2>
+          <p>Võta ühendust Priiduga, kui soovid lihtsat ühe lehe veebilahendust. Esimene näidis on mairerasta.eu ja edaspidi saan luua rohkem sarnaseid lahendusi.</p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> priit.linnakivi@gmail.com</li>
+            <li><strong>Telefon:</strong> +372 54540911</li>
+            <li><strong>Asukoht:</strong> Eesti</li>
+          </ul>
+        </div>
+        <form class="contact-form" action="https://formsubmit.co/priit.linnakivi@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="Uus päring mairerasta.eu lehelt">
+          <input type="hidden" name="_next" value="https://mairerasta.eu/thanks.html">
+          <input type="hidden" name="_captcha" value="false">
+          <label>
+            Nimi
+            <input type="text" name="name" placeholder="Sinu nimi" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="Sinu@email.ee" required>
+          </label>
+          <label>
+            Sõnum
+            <textarea name="message" rows="5" placeholder="Kirjuta, mida vajad..."></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Saada päring</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Priit Linnakivi. Ainus näidis: mairerasta.eu.</p>
+      <p>Ühekülgne veebilahendus ja lihtne kontakt.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
