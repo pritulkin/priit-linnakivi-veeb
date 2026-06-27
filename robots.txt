@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://priitlinnakivi.eu/sitemap.xml
