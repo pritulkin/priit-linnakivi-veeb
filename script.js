@@ -25,7 +25,7 @@ function applyTheme(theme) {
   document.documentElement.dataset.theme = theme;
   if (themeToggle) {
     themeToggle.textContent = theme === 'dark' ? '☀️' : '🌙';
-    themeToggle.setAttribute('aria-label', theme === 'dark' ? 'Vaheta heledale teemale' : 'Vaheta tumedale teemale');
+    themeToggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');
   }
 }
 
