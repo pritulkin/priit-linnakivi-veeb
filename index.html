@@ -1,171 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Priit Linnakivi — web portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#home">Priit Linnakivi</a>
-      <button class="theme-toggle" type="button" aria-label="Toggle theme" title="Switch between light and dark theme">🌙</button>
-      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <nav class="site-nav">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priit Linnakivi | Web Developer</title>
+    <meta
+      name="description"
+      content="Personal portfolio page for web developer Priit Linnakivi showcasing skills, projects, and contact information."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <a href="#about" class="brand">Priit Linnakivi</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
       </nav>
-    </div>
-  </header>
 
-  <main>
-    <section class="hero" id="home">
-      <div class="container hero-grid">
-        <div class="hero-content">
-          <div class="hero-top">
-            <img class="profile-photo" src="img/image.png" alt="Priit Linnakivi">
-            <span class="profile-name">Priit Linnakivi</span>
-          </div>
-          <p class="eyebrow">Demo: mairerasta.eu</p>
-          <h1>I build simple one-page websites for portfolios — clean, clear, and ready to use.</h1>
-          <p>Currently only one page is live, please explore it.</p>
+      <div class="hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow">Web Developer • UI Engineer • Problem Solver</p>
+          <h1>I build fast, modern, and user-focused web experiences.</h1>
+          <p class="intro">
+            I design and develop responsive websites and web apps that combine clean code,
+            thoughtful UX, and measurable business impact.
+          </p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#contact">Get in touch</a>
-            <a class="btn btn-secondary" href="https://mairerasta.eu" target="_blank">See demo</a>
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Let's Talk</a>
           </div>
         </div>
+
         <div class="hero-card">
-          <div class="hero-card-inner">
-            <p class="card-tag">Demo</p>
-            <h2>MaireRasta.eu</h2>
-            <p>A one-page website that is ready and shows how simple design and clear structure work. The demo is meant to inspire similar future solutions.</p>
-            <ul class="card-list">
-              <li>Clear homepage structure</li>
-              <li>Mobile-friendly experience</li>
-              <li>Contact and info visible right away</li>
-            </ul>
-          </div>
+          <div class="avatar">PL</div>
+          <h2>Available for freelance and full-time opportunities</h2>
+          <p>
+            Specializing in React, JavaScript, and performance-focused front-end development.
+          </p>
         </div>
       </div>
-    </section>
+    </header>
 
-    <section class="section" id="about">
-      <div class="container section-grid">
-        <div>
-          <p class="section-label">About</p>
-          <h2>Priit Linnakivi — web developer</h2>
-          <p>One demo is ready: mairerasta.eu. I create simple one-page web solutions that are clear, mobile-friendly, and easy to use.</p>
-          <div class="about-photos" aria-hidden="false">
-            <img src="img/photo1.png" alt="Priit working" />
-            <img src="img/photo2.png" alt="Web development" />
-            <img src="img/photo3.png" alt="Portfolio example" />
-          </div>
+    <main>
+      <section id="about" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">About Me</p>
+          <h2>Crafting digital experiences that feel effortless.</h2>
         </div>
-        <div class="detail-cards">
-          <article class="detail-card">
-            <h3>Friendly partner</h3>
-            <p>I listen to what you need and build a simple website solution that fits your project.</p>
-          </article>
-          <article class="detail-card">
-            <h3>Practical approach</h3>
-            <p>I focus on making the page fast, readable, and easy to manage.</p>
-          </article>
-          <article class="detail-card">
-            <h3>Portfolio starter</h3>
-            <p>I work on free websites to gather first projects and show them to future clients.</p>
-          </article>
-        </div>
-      
-    </section>
+        <p>
+          I’m a web developer with a strong focus on building intuitive interfaces and scalable
+          front-end architecture. From landing pages to complex web applications, I enjoy turning
+          ideas into polished products that are both beautiful and practical.
+        </p>
+      </section>
 
-    <section class="section bg-soft" id="services">
-      <div class="container">
-        <p class="section-label">Services</p>
-        <h2>What I offer</h2>
-        <div class="services-grid">
-          <article class="service-card">
-            <h3>First page build</h3>
-            <p>I build simple websites with HTML, CSS, and JavaScript that work well on mobile and desktop.</p>
+      <section id="skills" class="section section-alt">
+        <div class="section-heading">
+          <p class="eyebrow">Core Skills</p>
+          <h2>Tools and technologies I use every day.</h2>
+        </div>
+        <div class="skills-grid">
+          <article>
+            <h3>Frontend</h3>
+            <p>HTML, CSS, JavaScript, React, TypeScript, Tailwind</p>
           </article>
-          <article class="service-card">
-            <h3>Portfolio content</h3>
-            <p>I create your work showcase so it looks professional and inviting.</p>
+          <article>
+            <h3>Backend</h3>
+            <p>Node.js, Express, REST APIs, databases</p>
           </article>
-          <article class="service-card">
-            <h3>Fast publishing</h3>
-            <p>Your website can be live the same week so you can start showing your work right away.</p>
+          <article>
+            <h3>Workflow</h3>
+            <p>Git, GitHub, VS Code, testing, performance optimization</p>
           </article>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section" id="portfolio">
-      <div class="container">
-        <p class="section-label">Examples</p>
-        <h2>First free projects</h2>
-        <div class="portfolio-grid">
-          <article class="portfolio-card">
-            <img class="portfolio-thumb" src="img/mairerasta.png" alt="mairerasta.eu demo" />
-            <span class="portfolio-badge">Demo</span>
-            <h3>mairerasta.eu</h3>
-            <p>A one-page website created as a demo and inspiration. Maire Rästä's site shows how a simple and clear solution works well.</p>
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Featured Projects</p>
+          <h2>Selected work that reflects my style and skills.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Studio Commerce</h3>
+            <p>A modern e-commerce experience built with React and a seamless checkout flow.</p>
+          </article>
+          <article class="project-card">
+            <h3>Northstar Analytics</h3>
+            <p>A data dashboard focused on clarity, responsiveness, and quick insights.</p>
+          </article>
+          <article class="project-card">
+            <h3>Bright Content Hub</h3>
+            <p>A content-driven website with a strong editorial feel and fast content delivery.</p>
           </article>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section contact-section" id="contact">
-      <div class="container contact-grid">
-        <div>
-          <p class="section-label">Contact</p>
-          <h2>Let's start working together</h2>
-          <p>Contact Priit if you want a simple one-page website solution. The first demo is mairerasta.eu, and more similar projects can be built next.</p>
-          <ul class="contact-list">
-            <li><strong>Email:</strong> priit.linnakivi@gmail.com</li>
-            <li><strong>Phone:</strong> +372 54540911</li>
-            <li><strong>Location:</strong> Estonia</li>
-          </ul>
+      <section id="contact" class="section section-alt">
+        <div class="section-heading">
+          <p class="eyebrow">Get In Touch</p>
+          <h2>Let’s create something great together.</h2>
         </div>
-        <form class="contact-form" action="https://formsubmit.co/priit.linnakivi@gmail.com" method="POST">
-          <input type="hidden" name="_subject" value="New inquiry from mairerasta.eu page">
-          <input type="hidden" name="_next" value="https://mairerasta.eu/thanks.html">
-          <input type="hidden" name="_captcha" value="false">
-          <label>
-            Name
-            <input type="text" name="name" placeholder="Your name" required>
-          </label>
-          <label>
-            Email
-            <input type="email" name="email" placeholder="you@example.com" required>
-          </label>
-          <label>
-            Message
-            <textarea name="message" rows="5" placeholder="Write what you need..."></textarea>
-          </label>
-          <button class="btn btn-primary" type="submit">Send inquiry</button>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>© 2026 Priit Linnakivi. Only demo: mairerasta.eu.</p>
-      <p>One-page website solution and simple contact.</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+        <p>
+          Interested in working together? Reach out and I’ll be happy to discuss your ideas.
+        </p>
+        <p><strong>Phone:</strong> +372 54540911</p>
+        <p><strong>Email:</strong> priit.linnakivi@gmail.com</p>
+        <a href="mailto:priit.linnakivi@gmail.com" class="btn btn-primary">priit.linnakivi@gmail.com</a>
+      </section>
+    </main>
+  </body>
 </html>
